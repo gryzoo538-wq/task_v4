@@ -1,0 +1,51 @@
+pdf_file,lab,pages,scan,orientation,legibility,product_as_printed,amount_printed,batch,date_printed,purity_printed,theo_printed,obs_printed,remark
+CBA-2506105.pdf,Coastal BioAssay,2,yes,upright,low resolution (72 ppi) - blurry but readable after 2.5x zoom,GHRP-2 (Pralmorelin),5 mg,PP-2511-003,11/06/2025,98.6 %,817.9 Da,817.7 Da,
+CBA-2507747.pdf,Coastal BioAssay,2,no,upright,text layer,Bremelanotide (PT-141),10 mg,PP-2606-030,06/11/2026,98.2 %,1025.2 Da,1025.5 Da,
+CBA-2509156.pdf,Coastal BioAssay,2,yes,upright,low resolution (72 ppi) - blurry but readable after 2.5x zoom,Epitalon (Epithalon),10 mg,PP-2603-022,04/03/2026,99.6 %,390.4 Da,390.5 Da,Date 04/03/2026 is ambiguous out of context; the lab prints MM/DD/YYYY so it is 3 April 2026
+CBA-2512337.pdf,Coastal BioAssay,2,yes,rotated 90 degrees (landscape scan of a portrait page),clear (110 ppi),CJC-1295,2 mg,PP-2606-017,06/30/2026,99.2 %,3367.9 Da,3368.2 Da,Name does not say DAC / no DAC; theoretical mass 3367.9 Da identifies the no-DAC form (with-DAC is 3647.2 Da)
+CBA-2515439.pdf,Coastal BioAssay,2,yes,upright,clear (110 ppi),Gonadorelin acetate (GnRH),2 mg,PP-2510-016,11/15/2025,99.3 %,1182.3 Da,1182.6 Da,
+CBA-2528140.pdf,Coastal BioAssay,2,no,upright,text layer,Tesamorelin,5 mg,PP-2606-014,06/25/2026,98.6 %,5135.9 Da,5136.2 Da,Revision 2 - supersedes report CBA-2566510 (Revision 1); reason: peak integration error corrected; issued 07/08/2026
+CBA-2528977.pdf,Coastal BioAssay,2,yes,upside down (rotated 180 degrees),clear (110 ppi),GHRP-2 (Pralmorelin),5 mg,PP-2607-012,07/23/2026,99.1 %,817.9 Da,818.2 Da,
+CBA-2531544.pdf,Coastal BioAssay,2,yes,rotated 90 degrees (landscape scan of a portrait page),clear (110 ppi),Epitalon (Epithalon),10 mg,PP-2510-009,10/28/2025,99.1 %,390.4 Da,390.6 Da,
+CBA-2547931.pdf,Coastal BioAssay,2,yes,upright,clear (110 ppi),CJC-1295,2 mg,PP-2512-005,12/05/2025,98.8 %,3367.9 Da,3367.6 Da,Name does not say DAC / no DAC; theoretical mass 3367.9 Da identifies the no-DAC form
+CBA-2551750.pdf,Coastal BioAssay,2,no,upright,text layer,Thymosin Beta-4 Fragment (TB-500),5 mg,PP-2509-007,10/09/2025,98.9 %,889.0 Da,889.3 Da,
+CBA-2554937.pdf,Coastal BioAssay,2,no,upright,text layer,KPV,10 mg,PP-2508-031,09/12/2025,99.4 %,341.4 Da,341.5 Da,
+CBA-2566510.pdf,Coastal BioAssay,2,no,upright,text layer,Tesamorelin,5 mg,PP-2606-014,06/25/2026,97.8 %,5135.9 Da,5136.2 Da,Marked Revision 1 (original issue); superseded by CBA-2528140
+CBA-2574115.pdf,Coastal BioAssay,2,yes,upright,clear (110 ppi),Bremelanotide (PT-141),10 mg,PP-2601-027,01/09/2026,98.9 %,1025.2 Da,1025.0 Da,
+CBA-2582657.pdf,Coastal BioAssay,2,yes,upside down (rotated 180 degrees),clear (110 ppi),MOTS-c,10 mg,PP-2607-027,07/17/2026,98.4 %,2174.6 Da,2175.0 Da,
+CBA-2585319.pdf,Coastal BioAssay,2,yes,upright,low resolution (72 ppi) - blurry but readable after 2.5x zoom,Thymosin Beta-4 Fragment (TB-500),5 mg,PP-2502-004,03/04/2025,99.2 %,889.0 Da,888.8 Da,
+MAL-26-1614.pdf,Meridian Analytical Labs,1,no,upright,text layer,Semaglutide,5 mg,PP-2607-002,2026-07-15,99.2 %,4113.6 Da,4113.9 Da,Same batch as NPT-RS-83434 line 1 (purity 98.4 %); neither report says it revises the other
+MAL-26-1791.pdf,Meridian Analytical Labs,1,yes,rotated 90 degrees (landscape scan of a portrait page),clear (110 ppi),GHK-Cu,50 mg,,2026-05-22,98.9 %,403.9 Da,404.1 Da,Batch / Lot field is blank (empty underline)
+MAL-26-1812.pdf,Meridian Analytical Labs,1,yes,upright,clear (110 ppi),Hexarelin,5 mg,PP-2606-021,,99.2 %,887.0 Da,887.3 Da,Test date field is blank (empty underline)
+MAL-26-1950.pdf,Meridian Analytical Labs,1,yes,upright,clear (110 ppi),Sermorelin,5 mg,PP-2507-020,2025-08-20,98.7 %,3357.9 Da,3358.1 Da,
+MAL-26-2013.pdf,Meridian Analytical Labs,1,yes,rotated 90 degrees (landscape scan of a portrait page),clear (110 ppi),Thymalfasin (Thymosin Alpha-1),5 mg,PP-2606-012,2026-06-19,99.0 %,3108.3 Da,3108.9 Da,
+MAL-26-2186.pdf,Meridian Analytical Labs,1,no,upright,text layer,Ipamorelin,5 mg,PP-2608-016,2026-08-20,97.6 %,711.9 Da,712.0 Da,
+MAL-26-2408.pdf,Meridian Analytical Labs,1,no,upright,text layer,Tirzepatide,15 mg,PP-2608-011,2026-08-19,99.0 %,4813.5 Da,4813.8 Da,Declared amount 15 mg differs from the sheet size (10 mg)
+MAL-26-2486.pdf,Meridian Analytical Labs,1,yes,upright,clear (110 ppi),Selank,5 mg,PP-2608-005,2026-08-14,99.1 %,751.9 Da,752.0 Da,Large diagonal VOID stamp: "issued in error - do not use"
+MAL-26-3028.pdf,Meridian Analytical Labs,1,yes,upright,low resolution (72 ppi) - blurry but readable after 2x zoom,DSIP,5 mg,PP-2607-024,2026-07-30,,848.8 Da,849.0 Da,Purity (HPLC) field is blank (empty underline)
+MAL-26-3181.pdf,Meridian Analytical Labs,1,no,upright,text layer,GHRP-6,5 mg,PP-2606-025,2026-06-16,99.0 %,873.0 Da,873.2 Da,
+MAL-26-3363.pdf,Meridian Analytical Labs,1,yes,upright,low resolution (72 ppi) - blurry but readable after 2x zoom,Cagrilintide,5 mg,PP-2607-030,2026-07-31,98.1 %,4409.0 Da,4409.6 Da,
+MAL-26-3471.pdf,Meridian Analytical Labs,1,yes,upright,clear (110 ppi),BPC-157,5 mg,PP-2510-012,2025-11-02,99.0 %,1419.5 Da,1419.4 Da,
+MAL-26-4657.pdf,Meridian Analytical Labs,1,yes,upright,clear (110 ppi),DSIP,5 mg,PP-2603-002,2026-03-05,99.0 %,848.8 Da,848.9 Da,
+MAL-26-5744.pdf,Meridian Analytical Labs,1,yes,upright,low resolution (72 ppi) - blurry but readable after 2x zoom,GHRP-6,5 mg,PP-2601-019,2026-01-21,98.8 %,873.0 Da,872.9 Da,
+MAL-26-6305.pdf,Meridian Analytical Labs,1,no,upright,text layer,BPC-157,5 mg,PP-2608-003,2026-08-12,99.4 %,1419.5 Da,1419.7 Da,
+MAL-26-7499.pdf,Meridian Analytical Labs,1,yes,upright,clear (110 ppi),Thymalfasin (Thymosin Alpha-1),5 mg,PP-2512-022,2025-12-19,98.5 %,3108.3 Da,3108.1 Da,
+MAL-26-7851.pdf,Meridian Analytical Labs,1,yes,upside down (rotated 180 degrees),clear (110 ppi),AOD-9604,5 mg,PP-2603-014,2026-03-11,98.9 %,1815.1 Da,1815.0 Da,
+MAL-26-7955.pdf,Meridian Analytical Labs,1,yes,upright,clear (110 ppi),Selank,5 mg,PP-2512-018,2025-12-04,98.7 %,751.9 Da,752.1 Da,
+MAL-26-8104.pdf,Meridian Analytical Labs,1,yes,upright,low resolution (72 ppi) - blurry but readable after 2x zoom,AOD-9604,5 mg,PP-2607-009,2026-07-28,99.3 %,1815.1 Da,1815.4 Da,
+MAL-26-9779.pdf,Meridian Analytical Labs,1,yes,upright,clear (110 ppi),Ipamorelin,5 mg,PP-2601-010,2026-01-14,98.4 %,711.9 Da,711.8 Da,
+MAL-26-9858.pdf,Meridian Analytical Labs,1,yes,upright,clear (110 ppi),Cagrilintide,5 mg,PP-2603-017,2026-03-26,98.3 %,4409.0 Da,4408.8 Da,
+NPT-RS-33688.pdf,Northgate Peptide Testing,1,no,upright,text layer,BPC 157,"0,010 g",PP-2602-008,17.02.2026,"98,7 %","1419,5","1419,3",
+NPT-RS-33688.pdf,Northgate Peptide Testing,1,no,upright,text layer,Thymosin Beta-4 (full length),"0,005 g",PP-2606-040,10.06.2026,"98,8 %","4963,4","4963,9",Full-length Thymosin Beta-4 (4963.4 Da) is not TB-500 (fragment, 889.0 Da) and not in the product sheet
+NPT-RS-50433.pdf,Northgate Peptide Testing,1,yes,upright,clear (110 ppi),Kisspeptin-10,"0,005 g",PP-2602-003,08.02.2026,"99,1 %","1302,4","1302,6",
+NPT-RS-50433.pdf,Northgate Peptide Testing,1,yes,upright,clear (110 ppi),Kisspeptin-10,"0,005 g",PP-2608-010,02.08.2026,"98,6 %","1302,4","1302,7",
+NPT-RS-50433.pdf,Northgate Peptide Testing,1,yes,upright,clear (110 ppi),Kisspeptin-10,"0,005 g",PP-2605-001,12.05.2026,"99,4 %","1302,4","1302,5",
+NPT-RS-50433.pdf,Northgate Peptide Testing,1,yes,upright,clear (110 ppi),Pinealon,"0,010 g",PP-2607-033,21.07.2026,"99,0 %","359,4","359,5",Pinealon is not in the product sheet
+NPT-RS-83434.pdf,Northgate Peptide Testing,1,no,upright,text layer,Semaglutide,"0,005 g",PP-2607-002,18.07.2026,"98,4 %","4113,6","4114,0",Same batch as MAL-26-1614 (purity 99.2 %); neither report says it revises the other
+NPT-RS-83434.pdf,Northgate Peptide Testing,1,no,upright,text layer,Retatrutide,"0,012 g",PP-2608-019,27.08.2026,"98,8 %","4731,3","4731,7",Amount 0.012 g = 12 mg differs from the sheet size (10 mg)
+NPT-RS-83434.pdf,Northgate Peptide Testing,1,no,upright,text layer,LL-37,"0,005 g",PP-2608-007,22.08.2026,"96,9 %","4493,3","4493,6",
+NPT-RS-84830.pdf,Northgate Peptide Testing,1,no,upright,text layer,BPC 157,"0,010 g",PP-2607-021,21.07.2026,"99,1 %","1419,5","1419,8",
+NPT-RS-84830.pdf,Northgate Peptide Testing,1,no,upright,text layer,Semax,"0,005 g",PP-2608-002,06.08.2026,"99,3 %","813,9","814,1",
+NPT-RS-84830.pdf,Northgate Peptide Testing,1,no,upright,text layer,CJC-1295 DAC,"0,002 g",PP-2606-018,02.07.2026,"99,0 %","3647,2","3651,0",Observed mass is 3.8 Da above theoretical
+NPT-RS-99391.pdf,Northgate Peptide Testing,1,yes,upright,clear (110 ppi),Oxytocin,"0,002 g",PP-2608-013,25.08.2026,"99,5 %","1007,2","1007,4",
+NPT-RS-99391.pdf,Northgate Peptide Testing,1,yes,upright,clear (110 ppi),Semax,"0,005 g",PP-2510-011,14.10.2025,"98,9 %","813,9","813,8",

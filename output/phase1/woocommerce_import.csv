@@ -1,0 +1,31 @@
+SKU,Name,Regular price,Status,coa_batch,coa_test_date,coa_purity,coa_size_mg,coa_pdf,coa_url,status_reason
+P01,BPC-157,49.00,publish,PP-2608-003,2026-08-12,99.4,5,MAL-26-6305.pdf,https://example-store.test/coa/p01-pp-2608-003/,ok
+P02,BPC-157,85.00,publish,PP-2607-021,2026-07-21,99.1,10,NPT-RS-84830.pdf,https://example-store.test/coa/p02-pp-2607-021/,ok
+P03,TB-500,59.00,publish,PP-2509-007,2025-10-09,98.9,5,CBA-2551750.pdf,https://example-store.test/coa/p03-pp-2509-007/,ok
+P04,GHK-Cu,69.00,publish,PP-2605-008,2026-05-22,98.9,50,MAL-26-1791.pdf,https://example-store.test/coa/p04-pp-2605-008/,ok
+P05,Ipamorelin,55.00,draft,PP-2608-016,2026-08-20,97.6,5,MAL-26-2186.pdf,https://example-store.test/coa/p05-pp-2608-016/,purity below 98.0
+P06,CJC-1295 (no DAC),45.00,publish,PP-2606-017,2026-06-30,99.2,2,CBA-2512337.pdf,https://example-store.test/coa/p06-pp-2606-017/,ok
+P07,CJC-1295 (with DAC),65.00,draft,PP-2606-018,2026-07-02,99.0,2,NPT-RS-84830.pdf,https://example-store.test/coa/p07-pp-2606-018/,identity failed
+P08,Sermorelin,52.00,draft,PP-2507-020,2025-08-20,98.7,5,MAL-26-1950.pdf,https://example-store.test/coa/p08-pp-2507-020/,COA older than 12 months
+P09,Tesamorelin,89.00,publish,PP-2606-014,2026-06-25,98.6,5,CBA-2528140.pdf,https://example-store.test/coa/p09-pp-2606-014/,ok
+P10,Semaglutide,119.00,draft,PP-2607-002,,,,,https://example-store.test/coa/p10-pp-2607-002/,conflicting COAs
+P11,Tirzepatide,249.00,publish,PP-2608-011,2026-08-19,99.0,15,MAL-26-2408.pdf,https://example-store.test/coa/p11-pp-2608-011/,ok
+P12,Retatrutide,229.00,draft,PP-2608-019,2026-08-27,98.8,12,NPT-RS-83434.pdf,https://example-store.test/coa/p12-pp-2608-019/,size conflict
+P13,AOD-9604,62.00,publish,PP-2607-009,2026-07-28,99.3,5,MAL-26-8104.pdf,https://example-store.test/coa/p13-pp-2607-009/,ok
+P14,Epitalon,44.00,publish,PP-2603-022,2026-04-03,99.6,10,CBA-2509156.pdf,https://example-store.test/coa/p14-pp-2603-022/,ok
+P15,Selank,48.00,publish,PP-2512-018,2025-12-04,98.7,5,MAL-26-7955.pdf,https://example-store.test/coa/p15-pp-2512-018/,ok
+P16,Semax,52.00,publish,PP-2608-002,2026-08-06,99.3,5,NPT-RS-84830.pdf,https://example-store.test/coa/p16-pp-2608-002/,ok
+P17,PT-141,58.00,publish,PP-2606-030,2026-06-11,98.2,10,CBA-2507747.pdf,https://example-store.test/coa/p17-pp-2606-030/,ok
+P18,Melanotan II,46.00,draft,,,,,,,no COA
+P19,DSIP,42.00,publish,PP-2607-024,2026-07-30,98.8,5,MAL-26-3028.pdf,https://example-store.test/coa/p19-pp-2607-024/,ok
+P20,Kisspeptin-10,57.00,publish,PP-2608-010,2026-08-02,98.6,5,NPT-RS-50433.pdf,https://example-store.test/coa/p20-pp-2608-010/,ok
+P21,MOTS-c,95.00,publish,PP-2607-027,2026-07-17,98.4,10,CBA-2582657.pdf,https://example-store.test/coa/p21-pp-2607-027/,ok
+P22,Thymosin Alpha-1,78.00,publish,PP-2606-012,2026-06-19,99.0,5,MAL-26-2013.pdf,https://example-store.test/coa/p22-pp-2606-012/,ok
+P23,LL-37,99.00,draft,PP-2608-007,2026-08-22,96.9,5,NPT-RS-83434.pdf,https://example-store.test/coa/p23-pp-2608-007/,purity below 98.0
+P24,Hexarelin,49.00,draft,PP-2606-021,,99.2,5,MAL-26-1812.pdf,https://example-store.test/coa/p24-pp-2606-021/,missing field
+P25,GHRP-2,36.00,publish,PP-2607-012,2026-07-23,99.1,5,CBA-2528977.pdf,https://example-store.test/coa/p25-pp-2607-012/,ok
+P26,GHRP-6,39.00,publish,PP-2606-025,2026-06-16,99.0,5,MAL-26-3181.pdf,https://example-store.test/coa/p26-pp-2606-025/,ok
+P27,Oxytocin,35.00,publish,PP-2608-013,2026-08-25,99.5,2,NPT-RS-99391.pdf,https://example-store.test/coa/p27-pp-2608-013/,ok
+P28,KPV,54.00,draft,PP-2508-031,2025-09-12,99.4,10,CBA-2554937.pdf,https://example-store.test/coa/p28-pp-2508-031/,COA older than 12 months
+P29,Cagrilintide,139.00,publish,PP-2607-030,2026-07-31,98.1,5,MAL-26-3363.pdf,https://example-store.test/coa/p29-pp-2607-030/,ok
+P30,Gonadorelin,34.00,publish,PP-2510-016,2025-11-15,99.3,2,CBA-2515439.pdf,https://example-store.test/coa/p30-pp-2510-016/,ok

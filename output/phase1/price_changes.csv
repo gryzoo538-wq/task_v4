@@ -1,0 +1,4 @@
+SKU,Name,old_price,new_price,reason
+P11,Tirzepatide,179.00,249.00,"size corrected: COA declares 15 mg, sheet 10 mg; price list row Tirzepatide 15 mg (rule 8)"
+P16,Semax,48.00,52.00,price list differs from sheet price (rule 8)
+P25,GHRP-2,39.00,36.00,price list differs from sheet price (rule 8)
