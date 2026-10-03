@@ -1,0 +1,52 @@
+pdf_file,lab,product_as_printed,matched_sku,declared_amount_mg,batch,test_date,purity,theoretical_mass,observed_mass,notes
+CBA-2506105.pdf,Coastal BioAssay,GHRP-2 (Pralmorelin),P25,5,PP-2511-003,2025-11-06,98.6,817.9,817.7,IGNORED: older batch than chosen PP-2607-012 (rule 5)
+CBA-2507747.pdf,Coastal BioAssay,Bremelanotide (PT-141),P17,10,PP-2606-030,2026-06-11,98.2,1025.2,1025.5,USED as final COA for P17
+CBA-2509156.pdf,Coastal BioAssay,Epitalon (Epithalon),P14,10,PP-2603-022,2026-04-03,99.6,390.4,390.5,Date 04/03/2026 is ambiguous out of context; the lab prints MM/DD/YYYY so it is 3 April 2026; USED as final COA for P14
+CBA-2512337.pdf,Coastal BioAssay,CJC-1295,P06,2,PP-2606-017,2026-06-30,99.2,3367.9,3368.2,Name does not say DAC / no DAC; theoretical mass 3367.9 Da identifies the no-DAC form (with-DAC is 3647.2 Da); USED as final COA for P06
+CBA-2515439.pdf,Coastal BioAssay,Gonadorelin acetate (GnRH),P30,2,PP-2510-016,2025-11-15,99.3,1182.3,1182.6,USED as final COA for P30
+CBA-2528140.pdf,Coastal BioAssay,Tesamorelin,P09,5,PP-2606-014,2026-06-25,98.6,5135.9,5136.2,Revision 2 - supersedes report CBA-2566510 (Revision 1); reason: peak integration error corrected; issued 07/08/2026; USED as final COA for P09
+CBA-2528977.pdf,Coastal BioAssay,GHRP-2 (Pralmorelin),P25,5,PP-2607-012,2026-07-23,99.1,817.9,818.2,USED as final COA for P25
+CBA-2531544.pdf,Coastal BioAssay,Epitalon (Epithalon),P14,10,PP-2510-009,2025-10-28,99.1,390.4,390.6,IGNORED: older batch than chosen PP-2603-022 (rule 5)
+CBA-2547931.pdf,Coastal BioAssay,CJC-1295,P06,2,PP-2512-005,2025-12-05,98.8,3367.9,3367.6,Name does not say DAC / no DAC; theoretical mass 3367.9 Da identifies the no-DAC form; IGNORED: older batch than chosen PP-2606-017 (rule 5)
+CBA-2551750.pdf,Coastal BioAssay,Thymosin Beta-4 Fragment (TB-500),P03,5,PP-2509-007,2025-10-09,98.9,889.0,889.3,USED as final COA for P03 (product draft: COA older than 12 months)
+CBA-2554937.pdf,Coastal BioAssay,KPV,P28,10,PP-2508-031,2025-09-12,99.4,341.4,341.5,USED as final COA for P28 (product draft: COA older than 12 months)
+CBA-2566510.pdf,Coastal BioAssay,Tesamorelin,P09,5,PP-2606-014,2026-06-25,97.8,5135.9,5136.2,Marked Revision 1 (original issue); superseded by CBA-2528140; IGNORED: superseded by revision CBA-2528140.pdf (rule 4)
+CBA-2574115.pdf,Coastal BioAssay,Bremelanotide (PT-141),P17,10,PP-2601-027,2026-01-09,98.9,1025.2,1025.0,IGNORED: older batch than chosen PP-2606-030 (rule 5)
+CBA-2582657.pdf,Coastal BioAssay,MOTS-c,P21,10,PP-2607-027,2026-07-17,98.4,2174.6,2175.0,USED as final COA for P21
+CBA-2585319.pdf,Coastal BioAssay,Thymosin Beta-4 Fragment (TB-500),P03,5,PP-2502-004,2025-03-04,99.2,889.0,888.8,IGNORED: older batch than chosen PP-2509-007 (rule 5)
+MAL-26-1614.pdf,Meridian Analytical Labs,Semaglutide,P10,5,PP-2607-002,2026-07-15,99.2,4113.6,4113.9,"Same batch as NPT-RS-83434 line 1 (purity 98.4 %); neither report says it revises the other; VOID: withdrawn by Meridian notice of 2026-10-04 (inbox/MAL-withdrawal-notice.pdf, email 01) - sample mislabelled at receipt, no replacement report; IGNORED: withdrawn by the lab, treated as VOID per email 01 (rule 3)"
+MAL-26-1791.pdf,Meridian Analytical Labs,GHK-Cu,P04,50,,2026-05-22,98.9,403.9,404.1,Batch / Lot field is blank (empty underline); USED as final COA for P04
+MAL-26-1812.pdf,Meridian Analytical Labs,Hexarelin,P24,5,PP-2606-021,,99.2,887.0,887.3,Test date field is blank (empty underline); USED as final COA for P24 (product draft: missing field)
+MAL-26-1950.pdf,Meridian Analytical Labs,Sermorelin,P08,5,PP-2507-020,2025-08-20,98.7,3357.9,3358.1,USED as final COA for P08 (product draft: COA older than 12 months)
+MAL-26-2013.pdf,Meridian Analytical Labs,Thymalfasin (Thymosin Alpha-1),P22,5,PP-2606-012,2026-06-19,99.0,3108.3,3108.9,USED as final COA for P22
+MAL-26-2186.pdf,Meridian Analytical Labs,Ipamorelin,P05,5,PP-2608-016,2026-08-20,97.6,711.9,712.0,USED as final COA for P05 (product draft: purity below 98.0)
+MAL-26-2408.pdf,Meridian Analytical Labs,Tirzepatide,P11,15,PP-2608-011,2026-08-19,99.0,4813.5,4813.8,Declared amount 15 mg differs from the sheet size (10 mg); USED as final COA for P11
+MAL-26-2486.pdf,Meridian Analytical Labs,Selank,P15,5,PP-2608-005,2026-08-14,99.1,751.9,752.0,"Large diagonal VOID stamp: ""issued in error - do not use""; IGNORED: stamped VOID (rule 3)"
+MAL-26-3028.pdf,Meridian Analytical Labs,DSIP,P19,5,PP-2607-024,2026-07-30,,848.8,849.0,Purity (HPLC) field is blank (empty underline); USED as final COA for P19
+MAL-26-3181.pdf,Meridian Analytical Labs,GHRP-6,P26,5,PP-2606-025,2026-06-16,99.0,873.0,873.2,USED as final COA for P26
+MAL-26-3363.pdf,Meridian Analytical Labs,Cagrilintide,P29,5,PP-2607-030,2026-07-31,98.1,4409.0,4409.6,USED as final COA for P29
+MAL-26-3471.pdf,Meridian Analytical Labs,BPC-157,P01,5,PP-2510-012,2025-11-02,99.0,1419.5,1419.4,IGNORED: older batch than chosen PP-2608-003 (rule 5)
+MAL-26-4657.pdf,Meridian Analytical Labs,DSIP,P19,5,PP-2603-002,2026-03-05,99.0,848.8,848.9,IGNORED: older batch than chosen PP-2607-024 (rule 5)
+MAL-26-5744.pdf,Meridian Analytical Labs,GHRP-6,P26,5,PP-2601-019,2026-01-21,98.8,873.0,872.9,IGNORED: older batch than chosen PP-2606-025 (rule 5)
+MAL-26-6305.pdf,Meridian Analytical Labs,BPC-157,P01,5,PP-2608-003,2026-08-12,99.4,1419.5,1419.7,USED as final COA for P01
+MAL-26-7499.pdf,Meridian Analytical Labs,Thymalfasin (Thymosin Alpha-1),P22,5,PP-2512-022,2025-12-19,98.5,3108.3,3108.1,IGNORED: older batch than chosen PP-2606-012 (rule 5)
+MAL-26-7851.pdf,Meridian Analytical Labs,AOD-9604,P13,5,PP-2603-014,2026-03-11,98.9,1815.1,1815.0,IGNORED: older batch than chosen PP-2607-009 (rule 5)
+MAL-26-7955.pdf,Meridian Analytical Labs,Selank,P15,5,PP-2512-018,2025-12-04,98.7,751.9,752.1,USED as final COA for P15
+MAL-26-8104.pdf,Meridian Analytical Labs,AOD-9604,P13,5,PP-2607-009,2026-07-28,99.3,1815.1,1815.4,USED as final COA for P13
+MAL-26-9779.pdf,Meridian Analytical Labs,Ipamorelin,P05,5,PP-2601-010,2026-01-14,98.4,711.9,711.8,IGNORED: older batch than chosen PP-2608-016 (rule 5)
+MAL-26-9858.pdf,Meridian Analytical Labs,Cagrilintide,P29,5,PP-2603-017,2026-03-26,98.3,4409.0,4408.8,IGNORED: older batch than chosen PP-2607-030 (rule 5)
+NPT-RS-33688.pdf,Northgate Peptide Testing,BPC 157,P02,10,PP-2602-008,2026-02-17,98.7,1419.5,1419.3,IGNORED: older batch than chosen PP-2607-021 (rule 5)
+NPT-RS-33688.pdf,Northgate Peptide Testing,Thymosin Beta-4 (full length),,5,PP-2606-040,2026-06-10,98.8,4963.4,4963.9,Full-length Thymosin Beta-4 (4963.4 Da) is not TB-500 (fragment; IGNORED: matches no product (rule 2) - no product in products.csv is 'Thymosin Beta-4 (full length)' (theoretical mass 4963.4 Da)
+NPT-RS-50433.pdf,Northgate Peptide Testing,Kisspeptin-10,P20,5,PP-2602-003,2026-02-08,99.1,1302.4,1302.6,IGNORED: older batch than chosen PP-2608-010 (rule 5)
+NPT-RS-50433.pdf,Northgate Peptide Testing,Kisspeptin-10,P20,5,PP-2608-010,2026-08-02,98.6,1302.4,1302.7,USED as final COA for P20
+NPT-RS-50433.pdf,Northgate Peptide Testing,Kisspeptin-10,P20,5,PP-2605-001,2026-05-12,99.4,1302.4,1302.5,IGNORED: older batch than chosen PP-2608-010 (rule 5)
+NPT-RS-50433.pdf,Northgate Peptide Testing,Pinealon,,10,PP-2607-033,2026-07-21,99.0,359.4,359.5,Pinealon is not in the product sheet; IGNORED: matches no product (rule 2) - no product in products.csv is 'Pinealon' (theoretical mass 359.4 Da)
+NPT-RS-83434.pdf,Northgate Peptide Testing,Semaglutide,P10,5,PP-2607-002,2026-07-18,98.4,4113.6,4114.0,Same batch as MAL-26-1614 (purity 99.2 %); neither report says it revises the other; USED as final COA for P10
+NPT-RS-83434.pdf,Northgate Peptide Testing,Retatrutide,P12,12,PP-2608-019,2026-08-27,98.8,4731.3,4731.7,Amount 0.012 g = 12 mg differs from the sheet size (10 mg); USED as final COA for P12 (product draft: size conflict)
+NPT-RS-83434.pdf,Northgate Peptide Testing,LL-37,P23,5,PP-2608-007,2026-08-22,96.9,4493.3,4493.6,USED as final COA for P23 (product draft: purity below 98.0)
+NPT-RS-84830.pdf,Northgate Peptide Testing,BPC 157,P02,10,PP-2607-021,2026-07-21,99.1,1419.5,1419.8,USED as final COA for P02
+NPT-RS-84830.pdf,Northgate Peptide Testing,Semax,P16,5,PP-2608-002,2026-08-06,99.3,813.9,814.1,USED as final COA for P16
+NPT-RS-84830.pdf,Northgate Peptide Testing,CJC-1295 DAC,P07,2,PP-2606-018,2026-07-02,99.0,3647.2,3651.0,Observed mass is 3.8 Da above theoretical; USED as final COA for P07 (product draft: identity failed)
+NPT-RS-99391.pdf,Northgate Peptide Testing,Oxytocin,P27,2,PP-2608-013,2026-08-25,99.5,1007.2,1007.4,USED as final COA for P27
+NPT-RS-99391.pdf,Northgate Peptide Testing,Semax,P16,5,PP-2510-011,2025-10-14,98.9,813.9,813.8,IGNORED: older batch than chosen PP-2608-002 (rule 5)
+CBA-2655272.pdf,Coastal BioAssay,Melanotan II (MT-2),P18,10,PP-2607-015,2026-07-09,99.0,1024.2,1024.5,Received with email 02 (2026-10-08); moved from inbox/ to coa/ as instructed; USED as final COA for P18

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>COA Library</title>
+<style>
+  :root { --bg:#fff; --fg:#1d232a; --muted:#5b6672; --line:#dde2e7; --accent:#0b6e4f; --tint:#eef6f2; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#14181c; --fg:#e7ecef; --muted:#9aa6b1; --line:#2b3339; --accent:#5fd0a3; --tint:#1b2a24; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif; }
+  main { max-width:960px; margin:0 auto; padding:24px 16px; }
+  .teaser { background:var(--tint); color:var(--accent); font-weight:600; padding:12px 16px; border-radius:8px; }
+  h1 { font-size:1.5rem; margin:20px 0 4px; }
+  p.note { color:var(--muted); margin:0 0 16px; }
+  .wrap { overflow-x:auto; }
+  table { width:100%; border-collapse:collapse; }
+  th, td { text-align:left; padding:8px 10px; border-bottom:1px solid var(--line); white-space:nowrap; }
+  th { color:var(--muted); font-weight:600; font-size:.85rem; text-transform:uppercase; letter-spacing:.03em; }
+  td:nth-child(4) { font-variant-numeric:tabular-nums; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <div class="teaser" id="coa-teaser">23 verified COAs · average purity 98.93 %</div>
+  <h1>Certificate of Analysis library</h1>
+  <p class="note">Published products only, newest test date first (ties by SKU). Reference date 2026-09-30.</p>
+  <div class="wrap">
+  <table id="coa-library">
+    <thead><tr><th>Product</th><th>Batch</th><th>Test date</th><th>Purity</th><th>COA PDF</th></tr></thead>
+    <tbody>
+      <tr data-sku="P27"><td>Oxytocin</td><td>PP-2608-013</td><td>2026-08-25</td><td>99.5 %</td><td><a href="../../coa/NPT-RS-99391.pdf">NPT-RS-99391.pdf</a></td></tr>
+      <tr data-sku="P11"><td>Tirzepatide</td><td>PP-2608-011</td><td>2026-08-19</td><td>99.0 %</td><td><a href="../../coa/MAL-26-2408.pdf">MAL-26-2408.pdf</a></td></tr>
+      <tr data-sku="P01"><td>BPC-157</td><td>PP-2608-003</td><td>2026-08-12</td><td>99.4 %</td><td><a href="../../coa/MAL-26-6305.pdf">MAL-26-6305.pdf</a></td></tr>
+      <tr data-sku="P16"><td>Semax</td><td>PP-2608-002</td><td>2026-08-06</td><td>99.3 %</td><td><a href="../../coa/NPT-RS-84830.pdf">NPT-RS-84830.pdf</a></td></tr>
+      <tr data-sku="P20"><td>Kisspeptin-10</td><td>PP-2608-010</td><td>2026-08-02</td><td>98.6 %</td><td><a href="../../coa/NPT-RS-50433.pdf">NPT-RS-50433.pdf</a></td></tr>
+      <tr data-sku="P29"><td>Cagrilintide</td><td>PP-2607-030</td><td>2026-07-31</td><td>98.1 %</td><td><a href="../../coa/MAL-26-3363.pdf">MAL-26-3363.pdf</a></td></tr>
+      <tr data-sku="P19"><td>DSIP</td><td>PP-2607-024</td><td>2026-07-30</td><td>98.8 %</td><td><a href="../../coa/MAL-26-3028.pdf">MAL-26-3028.pdf</a></td></tr>
+      <tr data-sku="P13"><td>AOD-9604</td><td>PP-2607-009</td><td>2026-07-28</td><td>99.3 %</td><td><a href="../../coa/MAL-26-8104.pdf">MAL-26-8104.pdf</a></td></tr>
+      <tr data-sku="P25"><td>GHRP-2</td><td>PP-2607-012</td><td>2026-07-23</td><td>99.1 %</td><td><a href="../../coa/CBA-2528977.pdf">CBA-2528977.pdf</a></td></tr>
+      <tr data-sku="P02"><td>BPC-157</td><td>PP-2607-021</td><td>2026-07-21</td><td>99.1 %</td><td><a href="../../coa/NPT-RS-84830.pdf">NPT-RS-84830.pdf</a></td></tr>
+      <tr data-sku="P10"><td>Semaglutide</td><td>PP-2607-002</td><td>2026-07-18</td><td>98.4 %</td><td><a href="../../coa/NPT-RS-83434.pdf">NPT-RS-83434.pdf</a></td></tr>
+      <tr data-sku="P21"><td>MOTS-c</td><td>PP-2607-027</td><td>2026-07-17</td><td>98.4 %</td><td><a href="../../coa/CBA-2582657.pdf">CBA-2582657.pdf</a></td></tr>
+      <tr data-sku="P18"><td>Melanotan II</td><td>PP-2607-015</td><td>2026-07-09</td><td>99.0 %</td><td><a href="../../coa/CBA-2655272.pdf">CBA-2655272.pdf</a></td></tr>
+      <tr data-sku="P06"><td>CJC-1295 (no DAC)</td><td>PP-2606-017</td><td>2026-06-30</td><td>99.2 %</td><td><a href="../../coa/CBA-2512337.pdf">CBA-2512337.pdf</a></td></tr>
+      <tr data-sku="P09"><td>Tesamorelin</td><td>PP-2606-014</td><td>2026-06-25</td><td>98.6 %</td><td><a href="../../coa/CBA-2528140.pdf">CBA-2528140.pdf</a></td></tr>
+      <tr data-sku="P22"><td>Thymosin Alpha-1</td><td>PP-2606-012</td><td>2026-06-19</td><td>99.0 %</td><td><a href="../../coa/MAL-26-2013.pdf">MAL-26-2013.pdf</a></td></tr>
+      <tr data-sku="P26"><td>GHRP-6</td><td>PP-2606-025</td><td>2026-06-16</td><td>99.0 %</td><td><a href="../../coa/MAL-26-3181.pdf">MAL-26-3181.pdf</a></td></tr>
+      <tr data-sku="P17"><td>PT-141</td><td>PP-2606-030</td><td>2026-06-11</td><td>98.2 %</td><td><a href="../../coa/CBA-2507747.pdf">CBA-2507747.pdf</a></td></tr>
+      <tr data-sku="P04"><td>GHK-Cu</td><td>PP-2605-008</td><td>2026-05-22</td><td>98.9 %</td><td><a href="../../coa/MAL-26-1791.pdf">MAL-26-1791.pdf</a></td></tr>
+      <tr data-sku="P14"><td>Epitalon</td><td>PP-2603-022</td><td>2026-04-03</td><td>99.6 %</td><td><a href="../../coa/CBA-2509156.pdf">CBA-2509156.pdf</a></td></tr>
+      <tr data-sku="P15"><td>Selank</td><td>PP-2512-018</td><td>2025-12-04</td><td>98.7 %</td><td><a href="../../coa/MAL-26-7955.pdf">MAL-26-7955.pdf</a></td></tr>
+      <tr data-sku="P30"><td>Gonadorelin</td><td>PP-2510-016</td><td>2025-11-15</td><td>99.3 %</td><td><a href="../../coa/CBA-2515439.pdf">CBA-2515439.pdf</a></td></tr>
+      <tr data-sku="P03"><td>TB-500</td><td>PP-2509-007</td><td>2025-10-09</td><td>98.9 %</td><td><a href="../../coa/CBA-2551750.pdf">CBA-2551750.pdf</a></td></tr>
+    </tbody>
+  </table>
+  </div>
+</main>
+</body>
+</html>

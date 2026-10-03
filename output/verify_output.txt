@@ -1,0 +1,48 @@
+PASS  text-layer PDFs: all 18 transcribed result lines found verbatim in pdftotext output
+PASS  transcription covers every PDF in coa/ (42)
+PASS  scan/text flag in transcription matches the presence of a text layer
+PASS  [phase1] coa_extracted.csv has 50 result lines
+PASS  [phase1] coa_extracted.csv covers 41 PDFs
+PASS  [phase1] reading_notes.md has an entry per PDF and every result line of coa_extracted.csv
+PASS  [phase1] woocommerce_import.csv has 30 rows
+PASS  [phase1] every import value equals an independent re-derivation from the COA lines, sheet, price list and rules
+PASS  [phase1] every batch/date/purity/price in the import file exists in a COA line, the sheet or the price list
+PASS  [phase1] library = published products, newest test date first, ties by SKU (21)
+PASS  [phase1] feed order = library order
+PASS  [phase1] feed teaser '21 verified COAs · average purity 98.95 %' recomputed from the import file
+PASS  [phase1] library teaser matches
+PASS  [phase1] library and feed values equal the import file and every PDF link resolves
+PASS  [phase1] retest schedule recomputed from import test dates (ref 2026-09-30, 27 rows)
+PASS  [phase1] featured products = ['P14', 'P27', 'P01']
+PASS  [phase1] supplier scorecard recomputed from coa_extracted.csv + import file
+PASS  [phase1] scorecard results_used total (28) = products with a chosen COA
+PASS  [phase1] price_changes.csv = every price differing from the sheet ['P11', 'P16', 'P25']
+PASS  [phase1] client email: 9 drafts in SKU order with reason + action, total USD 768.00, price changes listed
+PASS  [phase1] exceptions report covers every draft, ignored/unmatched COA result and price change
+PASS  [final] coa_extracted.csv has 51 result lines
+PASS  [final] coa_extracted.csv covers 42 PDFs
+PASS  [final] reading_notes.md has an entry per PDF and every result line of coa_extracted.csv
+PASS  [final] woocommerce_import.csv has 30 rows
+PASS  [final] every import value equals an independent re-derivation from the COA lines, sheet, price list and rules
+PASS  [final] every batch/date/purity/price in the import file exists in a COA line, the sheet or the price list
+PASS  [final] library = published products, newest test date first, ties by SKU (22)
+PASS  [final] feed order = library order
+PASS  [final] feed teaser '22 verified COAs · average purity 98.93 %' recomputed from the import file
+PASS  [final] library teaser matches
+PASS  [final] library and feed values equal the import file and every PDF link resolves
+PASS  [final] retest schedule recomputed from import test dates (ref 2026-10-15, 29 rows)
+PASS  [final] featured products = ['P14', 'P27', 'P01']
+PASS  [final] supplier scorecard recomputed from coa_extracted.csv + import file
+PASS  [final] scorecard results_used total (30) = products with a chosen COA
+PASS  [final] price_changes.csv = every price differing from the sheet ['P11', 'P16', 'P25']
+PASS  [final] client email: 8 drafts in SKU order with reason + action, total USD 662.00, price changes listed
+PASS  [final] exceptions report covers every draft, ignored/unmatched COA result and price change
+PASS  changes_report.md lists exactly the 16 field differences between the two import files
+PASS  reply_01.md names every product changed by email_01: ['P10']
+PASS  reply_02.md names every product changed by email_02: ['P18']
+PASS  reply_03.md names every product changed by email_03: ['P03']
+
+phase1: {'pub': 21, 'draft': 9, 'mean': 98.95, 'total': 768.0, 'featured': ['P14', 'P27', 'P01']}
+final:  {'pub': 22, 'draft': 8, 'mean': 98.93, 'total': 662.0, 'featured': ['P14', 'P27', 'P01']}
+
+43 checks passed, 0 failed

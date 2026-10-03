@@ -1,0 +1,33 @@
+Peptide COA plugin tests against ../../output/final
+
+PASS  import file has 30 data rows
+PASS  all 30 rows imported
+PASS  no validation errors
+PASS  30 WooCommerce products exist after import
+PASS  every row stored as product + _coa_* meta exactly as in the CSV
+PASS  re-import updates existing products (still 30)
+PASS  shortcode renders rows
+PASS  shortcode lists the same SKUs in the same order as coa_library.html
+PASS  shortcode order matches coa_feed.json
+PASS  shortcode lists exactly the published SKUs of the import file
+PASS  shortcode batch / test date / purity / URL equal the feed values
+PASS  shortcode teaser text matches coa_feed.json
+PASS  teaser count matches feed
+PASS  teaser mean purity matches feed
+PASS  coa_library.html teaser matches feed
+PASS  teaser numbers equal the import file (published count and mean purity)
+PASS  woocommerce_product_tabs adds a "Certificate of Analysis" tab
+PASS  every draft's tab shows "COA pending" and no COA values (8 drafts)
+PASS  every published product's tab shows batch, test date, purity, size and the PDF link
+PASS  validator rejects bad batch (coa_batch)
+PASS  validator rejects bad date (coa_test_date)
+PASS  validator rejects bad date format (coa_test_date)
+PASS  validator rejects wrong URL (coa_url)
+PASS  validator rejects bad status (Status)
+PASS  validator rejects bad reason (status_reason)
+PASS  validator rejects bad price (Regular price)
+PASS  broken row is reported, not imported
+PASS  broken row report names batch, date and URL
+PASS  rejected row left the stored product meta unchanged
+
+29 passed, 0 failed

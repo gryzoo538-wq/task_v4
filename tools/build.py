@@ -38,6 +38,7 @@ SYNONYMS = {
     "thymalfasin (thymosin alpha-1)": "Thymosin Alpha-1", "ll-37": "LL-37",
     "hexarelin": "Hexarelin", "ghrp-2 (pralmorelin)": "GHRP-2", "ghrp-6": "GHRP-6",
     "oxytocin": "Oxytocin", "kpv": "KPV", "cagrilintide": "Cagrilintide",
+    "melanotan ii (mt-2)": "Melanotan II",
     "gonadorelin acetate (gnrh)": "Gonadorelin",
 }
 # Names that are ambiguous on their own; resolved by theoretical mass.
@@ -91,7 +92,7 @@ def to_mg(raw):
     return int(round(float(raw.replace("mg", "").strip())))
 
 
-def load_lines(extra_raw=None):
+def load_lines(extra_raw=None, void_extra=None):
     rows = read_csv(os.path.join(ROOT, "tools", "coa_raw.csv"))
     if extra_raw:
         rows += read_csv(extra_raw)
@@ -105,7 +106,9 @@ def load_lines(extra_raw=None):
         ln["purity"] = num(r["purity_printed"])
         ln["theo"] = num(r["theo_printed"])
         ln["obs"] = num(r["obs_printed"])
-        ln["void"] = "VOID" in r["remark"]
+        if void_extra and r["pdf_file"] in void_extra:
+            ln["remark"] = "; ".join(x for x in [r["remark"], void_extra[r["pdf_file"]]] if x)
+        ln["void"] = "VOID" in ln["remark"]
         m = re.search(r"supersedes report (\S+)", r["remark"])
         ln["supersedes"] = m.group(1) + ".pdf" if m else None
         lines.append(ln)
@@ -182,7 +185,8 @@ def decide(products, prices, lines):
         usable = []
         for ln in mine:
             if ln["void"]:
-                d["ignored"].append((ln, "stamped VOID (rule 3)"))
+                d["ignored"].append((ln, ("withdrawn by the lab, treated as VOID per email 01 (rule 3)"
+                                          if "withdrawn" in ln["remark"] else "stamped VOID (rule 3)")))
             elif ln["pdf_file"] in superseded:
                 sup = next(x for x in lines if x["supersedes"] == ln["pdf_file"])
                 d["ignored"].append((ln, f"superseded by revision {sup['pdf_file']} (rule 4)"))
@@ -292,6 +296,9 @@ def base_state():
         "prices": read_csv(os.path.join(ROOT, "price_list.csv")),
         "extra_raw": None,
         "pdf_dirs": {},          # pdf_file -> folder relative to project root (default coa/)
+        "void_extra": {},        # pdf_file -> reason (reports voided by the client after delivery)
+        "ref": date(2026, 9, 30),
+        "cutoff": date(2025, 9, 30),
         "events": [],
     }
 
@@ -316,11 +323,13 @@ def build(phase):
     sys.path.insert(0, os.path.join(ROOT, "tools"))
     for i in range(1, n_emails + 1):
         apply_email(state, i)
+    global REF, CUTOFF
+    REF, CUTOFF = state["ref"], state["cutoff"]
     products, prices = state["products"], state["prices"]
-    lines = load_lines(state["extra_raw"])
+    lines = load_lines(state["extra_raw"], state["void_extra"])
     masses = match_lines(lines, products)
     dec = decide(products, prices, lines)
-    outdir = os.path.join(ROOT, "output", "final" if phase == "final" else phase)
+    outdir = os.path.join(ROOT, "output", {"phase1": "phase1", "final": "final"}.get(phase, os.path.join("steps", phase)))
     os.makedirs(outdir, exist_ok=True)
     pdf_dir = lambda f: state["pdf_dirs"].get(f, "coa")
     ctx = {"state": state, "lines": lines, "dec": dec, "masses": masses, "pdf_dir": pdf_dir,
@@ -704,6 +713,13 @@ def write_reading_notes(ctx):
             if ln["remark"]:
                 out.append(f"  - Unusual: {ln['remark']}")
         out.append("")
+    if ctx["state"]["void_extra"]:
+        out += ["## inbox/MAL-withdrawal-notice.pdf (letter, not a COA)", "",
+                "- Location: `inbox/MAL-withdrawal-notice.pdf` (kept in inbox/ as instructed in email 01; not counted as a COA PDF)",
+                "- Meridian Analytical Labs; 1 page; scan (no text layer); upright; clear (110 ppi)",
+                "- Dated 2026-10-04, \"NOTICE OF REPORT WITHDRAWAL\": report MAL-26-1614 (Semaglutide, lot PP-2607-002) is withdrawn "
+                "with immediate effect; the sample was mislabelled at receipt; no replacement report will be issued. Signed Q. Ellison, Laboratory Manager.",
+                "- No result lines. Effect: MAL-26-1614.pdf treated as VOID (rule 3).", ""]
     with open(os.path.join(ctx["outdir"], "reading_notes.md"), "w", encoding="utf-8") as f:
         f.write("\n".join(out))
 

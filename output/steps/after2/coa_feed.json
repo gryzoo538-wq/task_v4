@@ -1,0 +1,217 @@
+{
+  "teaser": {
+    "text": "23 verified COAs · average purity 98.93 %",
+    "verified_coas": 23,
+    "average_purity": 98.93
+  },
+  "reference_date": "2026-09-30",
+  "products": [
+    {
+      "sku": "P27",
+      "product": "Oxytocin",
+      "batch": "PP-2608-013",
+      "test_date": "2026-08-25",
+      "purity": 99.5,
+      "coa_pdf": "coa/NPT-RS-99391.pdf",
+      "coa_url": "https://example-store.test/coa/p27-pp-2608-013/"
+    },
+    {
+      "sku": "P11",
+      "product": "Tirzepatide",
+      "batch": "PP-2608-011",
+      "test_date": "2026-08-19",
+      "purity": 99.0,
+      "coa_pdf": "coa/MAL-26-2408.pdf",
+      "coa_url": "https://example-store.test/coa/p11-pp-2608-011/"
+    },
+    {
+      "sku": "P01",
+      "product": "BPC-157",
+      "batch": "PP-2608-003",
+      "test_date": "2026-08-12",
+      "purity": 99.4,
+      "coa_pdf": "coa/MAL-26-6305.pdf",
+      "coa_url": "https://example-store.test/coa/p01-pp-2608-003/"
+    },
+    {
+      "sku": "P16",
+      "product": "Semax",
+      "batch": "PP-2608-002",
+      "test_date": "2026-08-06",
+      "purity": 99.3,
+      "coa_pdf": "coa/NPT-RS-84830.pdf",
+      "coa_url": "https://example-store.test/coa/p16-pp-2608-002/"
+    },
+    {
+      "sku": "P20",
+      "product": "Kisspeptin-10",
+      "batch": "PP-2608-010",
+      "test_date": "2026-08-02",
+      "purity": 98.6,
+      "coa_pdf": "coa/NPT-RS-50433.pdf",
+      "coa_url": "https://example-store.test/coa/p20-pp-2608-010/"
+    },
+    {
+      "sku": "P29",
+      "product": "Cagrilintide",
+      "batch": "PP-2607-030",
+      "test_date": "2026-07-31",
+      "purity": 98.1,
+      "coa_pdf": "coa/MAL-26-3363.pdf",
+      "coa_url": "https://example-store.test/coa/p29-pp-2607-030/"
+    },
+    {
+      "sku": "P19",
+      "product": "DSIP",
+      "batch": "PP-2607-024",
+      "test_date": "2026-07-30",
+      "purity": 98.8,
+      "coa_pdf": "coa/MAL-26-3028.pdf",
+      "coa_url": "https://example-store.test/coa/p19-pp-2607-024/"
+    },
+    {
+      "sku": "P13",
+      "product": "AOD-9604",
+      "batch": "PP-2607-009",
+      "test_date": "2026-07-28",
+      "purity": 99.3,
+      "coa_pdf": "coa/MAL-26-8104.pdf",
+      "coa_url": "https://example-store.test/coa/p13-pp-2607-009/"
+    },
+    {
+      "sku": "P25",
+      "product": "GHRP-2",
+      "batch": "PP-2607-012",
+      "test_date": "2026-07-23",
+      "purity": 99.1,
+      "coa_pdf": "coa/CBA-2528977.pdf",
+      "coa_url": "https://example-store.test/coa/p25-pp-2607-012/"
+    },
+    {
+      "sku": "P02",
+      "product": "BPC-157",
+      "batch": "PP-2607-021",
+      "test_date": "2026-07-21",
+      "purity": 99.1,
+      "coa_pdf": "coa/NPT-RS-84830.pdf",
+      "coa_url": "https://example-store.test/coa/p02-pp-2607-021/"
+    },
+    {
+      "sku": "P10",
+      "product": "Semaglutide",
+      "batch": "PP-2607-002",
+      "test_date": "2026-07-18",
+      "purity": 98.4,
+      "coa_pdf": "coa/NPT-RS-83434.pdf",
+      "coa_url": "https://example-store.test/coa/p10-pp-2607-002/"
+    },
+    {
+      "sku": "P21",
+      "product": "MOTS-c",
+      "batch": "PP-2607-027",
+      "test_date": "2026-07-17",
+      "purity": 98.4,
+      "coa_pdf": "coa/CBA-2582657.pdf",
+      "coa_url": "https://example-store.test/coa/p21-pp-2607-027/"
+    },
+    {
+      "sku": "P18",
+      "product": "Melanotan II",
+      "batch": "PP-2607-015",
+      "test_date": "2026-07-09",
+      "purity": 99.0,
+      "coa_pdf": "coa/CBA-2655272.pdf",
+      "coa_url": "https://example-store.test/coa/p18-pp-2607-015/"
+    },
+    {
+      "sku": "P06",
+      "product": "CJC-1295 (no DAC)",
+      "batch": "PP-2606-017",
+      "test_date": "2026-06-30",
+      "purity": 99.2,
+      "coa_pdf": "coa/CBA-2512337.pdf",
+      "coa_url": "https://example-store.test/coa/p06-pp-2606-017/"
+    },
+    {
+      "sku": "P09",
+      "product": "Tesamorelin",
+      "batch": "PP-2606-014",
+      "test_date": "2026-06-25",
+      "purity": 98.6,
+      "coa_pdf": "coa/CBA-2528140.pdf",
+      "coa_url": "https://example-store.test/coa/p09-pp-2606-014/"
+    },
+    {
+      "sku": "P22",
+      "product": "Thymosin Alpha-1",
+      "batch": "PP-2606-012",
+      "test_date": "2026-06-19",
+      "purity": 99.0,
+      "coa_pdf": "coa/MAL-26-2013.pdf",
+      "coa_url": "https://example-store.test/coa/p22-pp-2606-012/"
+    },
+    {
+      "sku": "P26",
+      "product": "GHRP-6",
+      "batch": "PP-2606-025",
+      "test_date": "2026-06-16",
+      "purity": 99.0,
+      "coa_pdf": "coa/MAL-26-3181.pdf",
+      "coa_url": "https://example-store.test/coa/p26-pp-2606-025/"
+    },
+    {
+      "sku": "P17",
+      "product": "PT-141",
+      "batch": "PP-2606-030",
+      "test_date": "2026-06-11",
+      "purity": 98.2,
+      "coa_pdf": "coa/CBA-2507747.pdf",
+      "coa_url": "https://example-store.test/coa/p17-pp-2606-030/"
+    },
+    {
+      "sku": "P04",
+      "product": "GHK-Cu",
+      "batch": "PP-2605-008",
+      "test_date": "2026-05-22",
+      "purity": 98.9,
+      "coa_pdf": "coa/MAL-26-1791.pdf",
+      "coa_url": "https://example-store.test/coa/p04-pp-2605-008/"
+    },
+    {
+      "sku": "P14",
+      "product": "Epitalon",
+      "batch": "PP-2603-022",
+      "test_date": "2026-04-03",
+      "purity": 99.6,
+      "coa_pdf": "coa/CBA-2509156.pdf",
+      "coa_url": "https://example-store.test/coa/p14-pp-2603-022/"
+    },
+    {
+      "sku": "P15",
+      "product": "Selank",
+      "batch": "PP-2512-018",
+      "test_date": "2025-12-04",
+      "purity": 98.7,
+      "coa_pdf": "coa/MAL-26-7955.pdf",
+      "coa_url": "https://example-store.test/coa/p15-pp-2512-018/"
+    },
+    {
+      "sku": "P30",
+      "product": "Gonadorelin",
+      "batch": "PP-2510-016",
+      "test_date": "2025-11-15",
+      "purity": 99.3,
+      "coa_pdf": "coa/CBA-2515439.pdf",
+      "coa_url": "https://example-store.test/coa/p30-pp-2510-016/"
+    },
+    {
+      "sku": "P03",
+      "product": "TB-500",
+      "batch": "PP-2509-007",
+      "test_date": "2025-10-09",
+      "purity": 98.9,
+      "coa_pdf": "coa/CBA-2551750.pdf",
+      "coa_url": "https://example-store.test/coa/p03-pp-2509-007/"
+    }
+  ]
+}
